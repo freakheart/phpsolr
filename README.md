@@ -3,7 +3,7 @@ PHPSolr is an extremely fast, light-weight, feature-rich library that allows PHP
 It consists of 4 parts. Query builder which allows you to build advanced queries, Query executor which sends the query to Solr and executes it, Query response parser which parses the Solr results in to a PHP array and Data Import which sends data from a MySQL or SQL Server database to a Solr core.
 
 Example Usage
-```
+```php
 <?php
 //Include the required classes or use a autoloader
 require_once(dirname(__FILE__) . '/query_string_builder/query_string.php');
