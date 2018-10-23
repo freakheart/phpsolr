@@ -4,7 +4,6 @@ It consists of 4 parts. Query builder which allows you to build advanced queries
 
 Example Usage
 <?php
-
 //Include the required classes or use a autoloader
 require_once(dirname(__FILE__) . '/query_string_builder/query_string.php');
 require_once(dirname(__FILE__) . '/query_string_builder/field.php');
