@@ -27,7 +27,6 @@ $subQuery->setFieldSeparator('OR');
 $Query->addSubQuery($subQuery);
 
 $core = 'corename';
-
 require_once(dirname(__FILE__) . '/Solr.php');
 $solr = new Solr();
 print_r($solr->getResults('select', urlencode($Query->__toString()), $core, 0, 1));
